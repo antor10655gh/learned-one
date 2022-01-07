@@ -24,25 +24,50 @@ body {
     width: 75%;
 }
 
-.header-right ul {
+.header-right>ul {
     margin-top: 70px;
+    display: flex;
 }
 
-.header-right ul li {
-    display: inline;
+.header-right>ul li {
+    list-style: none;
 }
 
-.header-right ul li a {
+.header-right>ul li a {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
     color: black;
+    transition: .3s;
 }
 
-.header-right ul li a:hover {
+.header-right>ul li a:hover {
     color: orange;
     border-bottom: 1px solid orange;
+}
+
+.header .dropdown {
+    display: none;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.header .dropdown li {
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.header .dropdown li a:hover {
+    color: papayawhip;
+    border: none;
+    color: orange;
+}
+
+.header-right>ul>li:hover ul {
+    position: absolute;
+    display: block;
+    width: 30%;
 }
 
 #active-btn {
@@ -96,6 +121,7 @@ body {
     font-size: 16px;
     color: #fff;
     text-transform: uppercase;
+    transition: .8s;
 }
 
 .hero-main .hero-content a:hover {
@@ -104,4 +130,69 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     color: black;
+}
+
+.department {
+    padding-bottom: 100px;
+}
+
+.department header {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.department header p {
+    padding-left: 400px;
+    padding-right: 400px;
+    color: gray;
+}
+
+.department .department-main {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.department .department-main .department-content {
+    width: 350px;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.department .department-main .department-content h1 {
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.department .department-main .department-content p {
+    color: rgb(73, 73, 73);
+}
+
+#cse {
+    background-color: rgb(249, 112, 58);
+    transition: .5s;
+}
+
+#cse:hover {
+    box-shadow: 5px 5px 20px rgb(249, 112, 58);
+}
+
+#eee {
+    background-color: rgb(128, 190, 65);
+    transition: .5s;
+}
+
+#eee:hover {
+    box-shadow: 5px 5px 20px rgb(128, 190, 65);
+}
+
+#bba {
+    background-color: rgb(255, 177, 87);
+    transition: .5s;
+}
+
+#bba:hover {
+    box-shadow: 5px 5px 20px rgb(255, 177, 87);
 }
