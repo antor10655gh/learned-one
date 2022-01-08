@@ -112,7 +112,7 @@ body {
     padding-bottom: 20px;
 }
 
-.hero-main .hero-content a {
+.btn {
     background-color: orange;
     box-shadow: 5px 5px 15px gray;
     padding: 10px 30px;
@@ -124,7 +124,7 @@ body {
     transition: .8s;
 }
 
-.hero-main .hero-content a:hover {
+.btn:hover {
     background-color: #fff;
     text-decoration: none;
     font-size: 16px;
@@ -195,4 +195,74 @@ body {
 
 #bba:hover {
     box-shadow: 5px 5px 20px rgb(255, 177, 87);
+}
+
+.limit-learning {}
+
+.limit-learning-main {
+    display: flex;
+    background: url(images/limit-shape.png);
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+}
+
+.learning-video {
+    width: 50%;
+    border-radius: 25%;
+    padding: 20px 50px;
+}
+
+.learning-content {
+    width: 50%;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+.learning-content h1 {
+    line-height: 40px;
+}
+
+.learning-content p {
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.around-university {
+    padding-bottom: 50px;
+}
+
+.around-university header {
+    text-align: center;
+}
+
+.content-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.around-versity-content {
+    width: 270px;
+    margin-top: 50px;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.around-versity-content:hover {
+    box-shadow: 5px 5px 20px rgb(255, 177, 87);
+}
+
+.around-versity-content h4 {
+    color: gray;
+}
+
+.around-versity-content a {
+    text-decoration: none;
+    color: #000;
+}
+
+.around-versity-content a:hover {
+    color: orange;
 }
