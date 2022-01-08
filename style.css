@@ -229,7 +229,7 @@ body {
 }
 
 .around-university {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .around-university header {
@@ -248,6 +248,7 @@ body {
     padding-bottom: 20px;
     transition: 0.5s;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
 }
 
 .around-versity-content:hover {
@@ -264,5 +265,109 @@ body {
 }
 
 .around-versity-content a:hover {
+    color: orange;
+}
+
+footer {
+    background-color: rgb(24, 36, 53);
+    padding: 50px 0px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content {
+    width: 400px;
+    padding: 10px 50px;
+    margin-right: 5px;
+}
+
+#footer-logo {
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+#forum-p {
+    padding-top: 20px;
+}
+
+.footer-content h3 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-content p {
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.footer-content ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.footer-content ul li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.footer-content ul li a {
+    list-style: none;
+    color: gray;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer-content ul li a:hover {
+    color: orange;
+}
+
+.footer-content form {
+    background-color: #fff;
+    width: 250px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-content input {
+    all: unset;
+    font: 16px system-ui;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+.footer-content button {
+    background-color: orange;
+    width: 30%;
+    height: 100%;
+    border: none;
+}
+
+.media-icon {
+    padding-top: 20px;
+    border-top: 1px solid gray;
+}
+
+.icon {
+    font-size: 30px;
+    cursor: pointer;
+    padding-right: 12px;
+    color: gray;
+    transition: .5s;
+}
+
+.icon:hover {
+    color: orange;
+}
+
+span {
     color: orange;
 }
